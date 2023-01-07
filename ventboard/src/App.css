@@ -62,12 +62,13 @@ nav {
   overflow: hidden;
   white-space: nowrap;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   color: #444444;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   transition: background-color 0.1s ease-in-out;
   cursor: pointer;
+
 
 }
 
@@ -76,9 +77,14 @@ nav {
 .icon{
   position: relative;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   margin: auto;
   transition: all .25s ease;
 }
 
+.nav_link:hover{
+  background: #eeeeee;
+  padding: 12px;
+
+}
 /**Bottom Navbar bottom**/
