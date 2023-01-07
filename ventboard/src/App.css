@@ -45,15 +45,11 @@ nav{
   display: flex;
   overflow-x: auto;
   margin: auto;
-  justify-content: space-around;
-}
-nav {
-  display: flex;
   justify-content: space-evenly;
-  width: 400px;
   list-style: none;
   align-items: center;
 }
+
 
 .nav_link{
   display: flex;
