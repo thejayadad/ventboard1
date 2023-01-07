@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/**Main Layout start**/
+
+.main{
+  max-width: 600px;
+  margin: auto;
+  background: lightblue;
+
+}
+h2{
+  text-align: center;
+}
+
+/**Main Layout start**/
+
