@@ -6,13 +6,14 @@ import MessagePage from './pages/MessagePage';
 import Mission from './pages/Mission';
 import NotFound from './pages/NotFound';
 import Navbar from './layout/Navbar';
+import Header from './layout/Header';
 
 function App() {
   return (
     <div className='main'>
 
     <Router>
-    <header>The Vent Board</header>
+      <Header />
         <Routes>
         <Route exact path='/' element={<HomePage/>} />
         <Route exact path='/messagelisting' element={<MessageListing/>} />
